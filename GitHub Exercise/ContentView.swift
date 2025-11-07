@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Today is a blue day!")
                 .font(.largeTitle)
                 .fontWeight(.black)
+            Rectangle()
         }
         .padding()
         .foregroundColor(.blue)
