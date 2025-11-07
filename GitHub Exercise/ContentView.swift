@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Today is a another day!")
                 .font(.largeTitle)
                 .fontWeight(.black)
+            Rectangle()
         }
         .padding()
         .foregroundColor(.green)
